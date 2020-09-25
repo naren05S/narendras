@@ -27,7 +27,7 @@ html, body {
 header {
 
   	height: 10vh;
-	background-color: #2E2630;
+	background-color:#B0C4DE;
 	font-family: "Gugi", cursive;
 }
 header .nav {
@@ -37,7 +37,7 @@ header .nav {
   	justify-content: flex-end;
   	flex-flow: nowrap;
   	align-items: center;
-  	padding: 20px 50px 20px 0;
+  	padding: 20px 50px 20px 0px;
   	position: fixed;
   	z-index: 5;
   	background-color: #2E2630;
@@ -122,9 +122,9 @@ header .nav {
 }
 
 .photo-div .photo {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  border-radius: 20%;
+  width: 250px;
+  height: 250px;
 }
 
 .welcome-part h1 {
@@ -143,7 +143,7 @@ header .nav {
 
 	font-size: 2vw;
 }
-.container .welcome-sec .about {
+.container .about-sec .about {
   	width: 500px;
   	text-align: center;
 	margin: -200px auto 0 auto;
@@ -154,28 +154,28 @@ header .nav {
 	transform:  translateX(-400%);
 }
 
-.container .welcome-sec .about h2 {
-  font-size: 3vw;
+.container .about-sec .about h2 {
+  font-size: 5vw;
   font-weight: 600;
   color: #A3395B;
   padding-bottom: 30px;
   text-transform: capitalize;
 }
 
-.container .welcome-sec .about p {
-  	font-weight: 400;
+.container .about-sec .about p {
+  	font-weight: 800;
 	padding-bottom: 30px;
 	line-height: 20px;
 
 }
 
-.container .welcome-sec .about .social i {
-  padding: 15px 0 0 20px;
-  font-size: 25px;
+.container .welcome-sec .social i {
+  padding: 20px 00px 0 20px;
+  font-size: 35px;
   color: #A6A5A6;
 }
 
-.container .welcome-sec .about .social i:hover {
+.container .welcome-sec .social i:hover {
   color: #A3395B;
   cursor: pointer;
 }
@@ -208,6 +208,66 @@ position: absolute;
   margin-left: 10px;
 }
 
+
+
+
+
+
+/*about*/
+.container .about-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0 50px 0;
+}
+
+.about-sec .sec-title {
+  text-align: center;
+  width: 50%;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.about-sec .sec-title h2 {
+  padding-bottom: 5px;
+  border-bottom-color: #A3395B;
+  border-bottom-width: thick;
+  font-size: 30px;
+  border-bottom-style: solid;
+  font-family: "Gugi", cursive;
+  letter-spacing: 2px;
+  width: 170px;
+  margin: 0 auto;
+}
+
+.about-sec .about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-container p{
+ font-size: 20px;
+  font-weight: 1000;
+  text-align: center;
+  color:#000000;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.about-container button {
+  background-color:#b898a2; /* Green */
+  border: #ffffff;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
 
 /*style projects section*/
 
@@ -268,7 +328,7 @@ position: absolute;
 	display: block;
 }
 .proj-screenshot {
-  width: 100%;
+  width:100%;
 }
 
 .proj-screenshot:hover {
@@ -285,7 +345,7 @@ position: absolute;
   left: 0;
   padding: 15px 0 0 30px;
   width: 100%;
-  height: 40%;
+  height: 50%;
 }
 
 .project-title h6 {
@@ -525,7 +585,7 @@ position: absolute;
 
 footer {
   color: #A6A5A6;
-  text-align: left;
+  text-align: center;
   padding: 5px 30px;
 }
 
